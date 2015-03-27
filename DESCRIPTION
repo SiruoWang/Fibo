@@ -1,0 +1,8 @@
+Package: Fibonacci
+Title: A Fibonacci package 
+Version: 0.0.0.9000
+Author@R: c(person("Sara", "Wang", role = c("aut", "cre"))
+Description: This is a simple package to return a fibonacci sequence.
+Depends: R (>= 3.1.1)
+License: Centre
+LazyData: true

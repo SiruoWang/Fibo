@@ -1,0 +1,17 @@
+{
+    "contents" : "#' Fibonacci Sequence\n#' \n#' Takes in any numeric value as the length of fibonacci sequence, and print out the fibonacci sequence.\n#' @param x A numeric value as the length of fibonacci sequence\n#' @return The fibonacci sequence with length x\n#' @export\nFib <- function(x){\n  if (x==1){\n    return(0)\n  }\n  else{\n    sequence <- c(0,1)\n    len <- length(sequence)\n    \n    while (len<=x-1){\n      nextfib <- sequence[len-1]+sequence[len]\n      sequence <- c(sequence,nextfib)\n      len <- length(sequence)\n    }\n  }\n  return(sequence)\n}",
+    "created" : 1427410987683.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1515131620",
+    "id" : "E1E6B02B",
+    "lastKnownWriteTime" : 1427413869,
+    "path" : "~/Fibonacci/R/Fib.R",
+    "project_path" : "R/Fib.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

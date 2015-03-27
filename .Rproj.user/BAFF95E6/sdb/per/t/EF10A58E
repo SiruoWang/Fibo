@@ -1,0 +1,16 @@
+{
+    "contents" : "Package: Fibonacci\nTitle: A Fibonacci package \nVersion: 0.0.0.9000\nAuthor@R: c(person(\"Sara\", \"Wang\", role = c(\"aut\", \"cre\"))\nDescription: This is a simple package to return a fibonacci sequence.\nDepends: R (>= 3.1.1)\nLicense: Centre\nLazyData: true\n",
+    "created" : 1427414177733.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3719999104",
+    "id" : "EF10A58E",
+    "lastKnownWriteTime" : 1427414493,
+    "path" : "~/Fibonacci/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "dcf"
+}
